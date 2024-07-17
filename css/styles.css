@@ -97,6 +97,39 @@ header{
     justify-content: center;
     align-items: center;
 }
+.midsection{
+    color: #717173;
+    background-color:#f7f7f7 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mid-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.wraper{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   padding: 20px;
+   max-width: 120px;
+}
+.box{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    border: #3882F6 3px solid;
+}
+
 
 ul{
     list-style-type: none;
