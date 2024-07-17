@@ -3,10 +3,16 @@ body{
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    margin: 0;
     
 }
 header{
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
 .logo{
     font-size: 24px;
@@ -17,6 +23,8 @@ header{
 .links{
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    gap: 18px;
    
 }
 ul{
