@@ -79,7 +79,7 @@ header{
 }
 
 .sign-up{
-
+    font-size: 20px;
     cursor: pointer;
     padding: 5px 20px;
     color: #fff;
@@ -104,11 +104,15 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 .mid-title{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin: 0;
 }
 .boxes{
     display: flex;
@@ -137,8 +141,8 @@ header{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    padding-top: 3%;
+
     
 }
 .quote{
@@ -155,8 +159,64 @@ header{
 .author{
     
     margin-left: 20%;
+}
+.bottom{
+
+    background-color:#f7f7f7 ;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+
+}
+.bottom-left{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+
+   
+}
+.bottom-right{
+    display: flex;
+    justify-content:start;
+    align-items: center;
 
 
+}
+.bottom button{
+    cursor: pointer;
+    padding: 5px 20px;
+    color: #fff;
+    background-color:#3882F6;
+    border:  2px solid  #E5E7EB;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.bottom-title{
+    font-weight: 900;
+    font-size: 24px;
+    flex: 1;
+
+}
+.bottom-desc{
+    flex: 1;
+}
+.blue-box{
+    width: 800px;
+    background-color: #3882F6;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+   padding: 3% 6%;
 }
 ul{
     list-style-type: none;
