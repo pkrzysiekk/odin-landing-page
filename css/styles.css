@@ -218,6 +218,17 @@ header{
     align-items: flex-end;
    padding: 3% 6%;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+    padding:3% 0;
+}
 ul{
     list-style-type: none;
     margin: 0;
